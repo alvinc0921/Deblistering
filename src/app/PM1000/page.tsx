@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ContactForm } from '@/components/contact-form';
+import { PM1000VideoPlayer } from '@/components/pm1000-video-player';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import fact1 from '@/pics/factory_pics/fact1.jpg';
@@ -139,6 +140,25 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Working Video Section */}
+      <section id="working-video" className="container mx-auto px-4 pb-16">
+        <div className="text-center mb-6">
+          <Badge className="mb-4">Working Video</Badge>
+          <h2 className="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl mb-4">
+            PM1000 in Operation
+          </h2>
+          <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+            Watch the machine&apos;s real working process and output stability.
+          </p>
+        </div>
+
+        <Card className="mx-auto w-full max-w-3xl overflow-hidden border-2">
+          <CardContent className="p-0">
+            <PM1000VideoPlayer src="/api/demo-video" />
+          </CardContent>
+        </Card>
       </section>
 
       {/* Features Section */}
