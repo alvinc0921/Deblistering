@@ -6,35 +6,32 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: '新应用 | 扣子编程',
-    template: '%s | 扣子编程',
+    default: 'PortalsMachinary',
+    template: '%s | PortalsMachinary',
   },
   description:
-    '扣子编程是一款一站式云端 Vibe Coding 开发平台。通过对话轻松构建智能体、工作流和网站，实现从创意到上线的无缝衔接。',
+    'PortalsMachinary is a trusted manufacturer focused on precision machinery, stable quality, and global delivery support.',
   keywords: [
-    '扣子编程',
-    'Coze Code',
-    'Vibe Coding',
-    'AI 编程',
-    '智能体搭建',
-    '工作流搭建',
-    '网站搭建',
-    '网站部署',
-    '全栈开发',
-    'AI 工程师',
+    'PortalsMachinary',
+    'PM1000',
+    'Deblistering Machine',
+    'Pharmaceutical Equipment',
+    'Trusted Manufacturer',
+    'Factory',
+    'Packaging Machinery',
   ],
-  authors: [{ name: 'Coze Code Team', url: 'https://code.coze.cn' }],
-  generator: 'Coze Code',
+  authors: [{ name: 'PortalsMachinary Team', url: 'https://portalsmachinery.org' }],
+  generator: 'PortalsMachinary',
   // icons: {
   //   icon: '',
   // },
   openGraph: {
-    title: '扣子编程 | 你的 AI 工程师已就位',
+    title: 'PortalsMachinary | Trusted Manufacturer',
     description:
-      '我正在使用扣子编程 Vibe Coding，让创意瞬间上线。告别拖拽，拥抱心流。',
-    url: 'https://code.coze.cn',
-    siteName: '扣子编程',
-    locale: 'zh_CN',
+      'Explore PM1000 and our manufacturing capabilities, quality standards, and global support services.',
+    url: 'https://portalsmachinery.org',
+    siteName: 'PortalsMachinary',
+    locale: 'en_GB',
     type: 'website',
     // images: [
     //   {
