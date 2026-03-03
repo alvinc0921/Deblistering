@@ -5,6 +5,7 @@ import { ContactForm } from '@/components/contact-form';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import fact1 from '@/pics/factory_pics/fact1.jpg';
+import awardsImage from '@/pics/factory_pics/awards.jpg';
 import pic1 from '@/pics/other_product_pics/1.jpg';
 import pic12 from '@/pics/other_product_pics/12.jpg';
 import pic23 from '@/pics/other_product_pics/23.jpg';
@@ -348,6 +349,30 @@ export default function Home() {
               Our factory is equipped with modern machining lines, standardized assembly stations, and in-process quality checkpoints to ensure every deblistering machine is built with consistent precision. From component sourcing to final performance testing, each step follows documented procedures focused on reliability, safety, and export-ready quality. With experienced engineers and responsive after-sales coordination, we support customers from quotation and customization to shipment and long-term operation.
             </p>
           </CardContent>
+        </Card>
+
+        <Card className="mt-8 overflow-hidden border-2">
+          <div className="grid gap-0 md:grid-cols-2">
+            <div className="relative aspect-[4/3] w-full md:aspect-auto md:min-h-[320px]">
+              <Image
+                src={awardsImage}
+                alt="Factory awards and certifications display"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardContent className="flex items-center p-8">
+              <div>
+                <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-700 dark:bg-purple-900/50 dark:text-purple-300">
+                  <Award className="h-4 w-4" />
+                  Awarded Manufacturer
+                </div>
+                <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
+                  Our manufacturing team has been recognized for consistent product quality, export reliability, and strong after-sales support. These awards reflect our commitment to delivering dependable equipment for global pharmaceutical workflows.
+                </p>
+              </div>
+            </CardContent>
+          </div>
         </Card>
 
         <div className="mt-8">
